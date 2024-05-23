@@ -1,0 +1,87 @@
+[
+    {
+      "_id": {
+        "$oid": "5f63a2b656ea5b8f64b1f0c6"
+      },
+      "nome": "Lara Silva",
+      "telefone": "8786148455454",
+      "endereco": [
+        {
+          "rua": "Rua A",
+          "numero": "123",
+          "complemento": "Apto 456",
+          "bairro": "Centro",
+          "estado": "SP",
+          "cidade": "São Paulo",
+          "cep": "12345-678"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5f63a2b656ea5b8f64b1f0c8"
+      },
+      "nome": "Ana Oliveira",
+      "telefone": "987654321",
+      "endereco": [
+        {
+          "rua": "Rua B",
+          "numero": "456",
+          "bairro": "Vila Nova",
+          "estado": "RJ",
+          "cidade": "Rio de Janeiro",
+          "cep": "87654-321"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5f63a2b656ea5b8f64b1f0cc"
+      },
+      "nome": "Paulo Lima",
+      "telefone": "555555555",
+      "endereco": [
+        {
+          "rua": "Rua C",
+          "numero": "789",
+          "bairro": "Bela Vista",
+          "estado": "MG",
+          "cidade": "Belo Horizonte",
+          "cep": "54321-987"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5f63a2b656ea5b8f64b1f0cd"
+      },
+      "nome": "Carlos Augusto",
+        "telefone": "34815972",
+      "endereco": [
+        {
+          "rua": "Rua D",
+          "numero": "987",
+          "bairro": "Liberdade",
+          "estado": "BA",
+          "cidade": "Salvador",
+          "cep": "87655-432"
+        }
+      ]
+    },
+    {
+      "_id": {
+        "$oid": "5f63a2b656ea5b8f64b1f0ce"
+      },
+      "nome": "Joana Carla",
+      "telefone": "111111111",
+      "endereco": [
+        {
+          "rua": "Rua E",
+          "numero": "654",
+          "bairro": "Copacabana",
+          "estado": "RJ",
+          "cidade": "Rio de Janeiro",
+          "cep": "23456-789"
+        }
+      ]
+    }
