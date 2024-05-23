@@ -4,21 +4,83 @@ client = MongoClient("mongodb://localhost:27017/")
 db = client.nomeDoSeuBancoDeDados
 collection = db.nomeDaColecao
 
-document = {
-    
-    "nome": "Lara Silva",
-    "telefone": "8786148455454",
-    "endereco": [
-      {
-        "rua": "Rua A",
-        "numero": "123",
-        "complemento": "Apto 456",
-        "bairro": "Centro",
-        "estado": "SP",
-        "cidade": "São Paulo",
-        "cep": "12345-678"
-      }
-    ]
-  }
-  # Usar o método insert_one para inserir o documento
-collection.insert_one(document)
+dados_clientes = [
+    {
+        "nome": "Lara Silva",
+        "telefone": "8786148455454",
+        "endereco": [
+            {
+                "rua": "Rua A",
+                "numero": "123",
+                "complemento": "Apto 456",
+                "bairro": "Centro",
+                "estado": "SP",
+                "cidade": "São Paulo",
+                "cep": "12345-678"
+            }
+        ]
+    },
+    {
+        "nome": "João Santos",
+        "telefone": "8798765432109",
+        "endereco": [
+            {
+                "rua": "Avenida B",
+                "numero": "456",
+                "complemento": "Casa 789",
+                "bairro": "Jardim",
+                "estado": "RJ",
+                "cidade": "Rio de Janeiro",
+                "cep": "54321-987"
+            }
+        ]
+    },
+    {
+        "nome": "Maria Oliveira",
+        "telefone": "8777666555444",
+        "endereco": [
+            {
+                "rua": "Rua X",
+                "numero": "789",
+                "complemento": "",
+                "bairro": "Praia",
+                "estado": "BA",
+                "cidade": "Salvador",
+                "cep": "98765-432"
+            }
+        ]
+    },
+    {
+        "nome": "Pedro Carvalho",
+        "telefone": "8787456342132",
+        "endereco": [
+            {
+                "rua": "Rua Z",
+                "numero": "321",
+                "complemento": "",
+                "bairro": "Centro",
+                "estado": "MG",
+                "cidade": "Belo Horizonte",
+                "cep": "45678-901"
+            }
+        ]
+    },
+    {
+        "nome": "Ana Pereira",
+        "telefone": "8798765432123",
+        "endereco": [
+            {
+                "rua": "Avenida Y",
+                "numero": "987",
+                "complemento": "Sala 101",
+                "bairro": "Centro",
+                "estado": "RS",
+                "cidade": "Porto Alegre",
+                "cep": "87654-321"
+            }
+        ]
+    }
+]
+
+# Inserir os documentos na coleção
+collection.insert_many(dados_clientes)
