@@ -1,0 +1,43 @@
+[
+    {
+      "_id": {
+        "$oid": "5f63a2b656ea5b8f64b1f0c5"
+      },
+      "nome": "Cibele Moraes",
+      "email": "cibele.moraes@email.com",
+      "cargo": "Analista de Suporte"
+    },
+    {
+      "_id": {
+        "$oid": "5f63a2b656ea5b8f64b1f0c7"
+      },
+      "nome": "Maria Oliveira",
+      "email": "maria.oliveira@email.com",
+      "cargo": "Desenvolvedor"
+    },
+    {
+      "_id": {
+        "$oid": "5f63a2b656ea5b8f64b1f0c9"
+      },
+      "nome": "Marcelo Silva",
+      "email": "marcelo.silva@email.com",
+      "cargo": "Gerente de Projetos"
+    },
+    {
+      "_id": {
+        "$oid": "5f63a2b656ea5b8f64b1f0ca"
+      },
+      "nome": "Juliana Santos",
+      "email": "juliana.santos@email.com",
+      "cargo": "Analista de Sistemas"
+    },
+    {
+      "_id": {
+        "$oid": "5f63a2b656ea5b8f64b1f0cb"
+      },
+      "nome": "Larissa Souza",
+      "email": "larissa.souza@email.com",
+      "cargo": "Arquiteto de Software"
+    }
+  ]
+  
