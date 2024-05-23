@@ -1,0 +1,24 @@
+from pymongo import MongoClient
+
+client = MongoClient("mongodb://localhost:27017/")
+db = client.nomeDoSeuBancoDeDados
+collection = db.nomeDaColecao
+
+document = {
+    
+    "nome": "Lara Silva",
+    "telefone": "8786148455454",
+    "endereco": [
+      {
+        "rua": "Rua A",
+        "numero": "123",
+        "complemento": "Apto 456",
+        "bairro": "Centro",
+        "estado": "SP",
+        "cidade": "São Paulo",
+        "cep": "12345-678"
+      }
+    ]
+  }
+  # Usar o método insert_one para inserir o documento
+collection.insert_one(document)
