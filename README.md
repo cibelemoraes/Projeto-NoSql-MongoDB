@@ -1,7 +1,7 @@
 # Projeto-NoSql-MongoDB
 <h1 align="center">📊 Sistema de Controle de Atendimentos</h1>
 <div align="center">
- <img src="‪C:\Users\cibel\Downloads\preview.png" height="400" width="1000"><br>
+  <img src="assets/preview.png" height="400" width="1000"><br>
 </div>
 <div style="display: inline_block" ><br>
     <h3>✅ Objetivo</h3>
